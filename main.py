@@ -47,6 +47,7 @@ Also, with enhanced technology we evolve this idea in making interlocking bricks
 
 
 problem_solution_pair = "\n --------- PROBLEM PROBLEM PROBLEM PROBLEM PROBLEM  ----------------- \n ------------------------------------------------------------------------------------------------------------\n\n\n"+prob+ "\n --------- SOLUTION SOLUTION SOLUTION SOLUTION SOLUTION  -----------------   \n " + sol + '\n------------------------------------------------------------------------------------------------------------\n\n\n'
+SOLUTION_ID_IN_CSV = 720
 
 params = [
     "Resource Avaibilty",
@@ -610,8 +611,8 @@ def aggregate_scores(inp_score):
 
 def run(ref,aieval):
 
-  max_judges = 1
-  ref_id = ref.get(720)
+  max_judges = 10
+  ref_id = ref.get(SOLUTION_ID_IN_CSV)
 
   stud_score_roundwise,gpt_scores_roundwise, moonshot_score, unq_score = aieval(prob, sol_faltu,sol_id=ref_id,max_judges=max_judges)
 
