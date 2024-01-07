@@ -2,7 +2,7 @@ Set 'OPENAI_API_KEY'
 
 ### Updating Data Instructions
 
-0. **SOLUTION_ID_IN_CSV**:
+0. **Requirements**:
    - Run `pip install -r requirements.txt`
 
 1. **SOLUTION_ID_IN_CSV**:
