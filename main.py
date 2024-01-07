@@ -7,12 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1J9ZYvYxLhUr91DbPjh5kkbrf7bSWo47N
 """
 
-!pip install langchain
-!pip install openai
-
-!pip install transformers
-!pip install Sentence_transformers
-
 from openai import OpenAI
 import re
 import plotly.graph_objects as go
