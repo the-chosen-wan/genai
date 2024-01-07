@@ -17,8 +17,8 @@
    Ensure to place your unique Solution ID in the designated column within the existing data. If the column does not contain this information, assign `-1` as a placeholder.
 
 2. **Problem Statement**:
-   Fill the variable `Prob` with the problem statement in string format. This represents the context or description of the problem you're addressing.
+   Fill the variable `prob` with the problem statement in string format. This represents the context or description of the problem you're addressing.
 
 3. **Your Solution**:
-   Fill the variable `Sol` with your proposed solution in string format. This should contain the detailed steps, code, or explanation of your solution to the specified problem.
+   Fill the variable `sol` with your proposed solution in string format. This should contain the detailed steps, code, or explanation of your solution to the specified problem.
 
