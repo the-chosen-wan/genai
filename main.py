@@ -38,6 +38,8 @@ There is no use of water in the making of these bricks. Also, more water is save
 Also, with enhanced technology we evolve this idea in making interlocking bricks, which essentially work like Lego blocks.
 """
 
+openApiKey = 'OPEN_AI_APIKEY'
+
 
 
 problem_solution_pair = "\n --------- PROBLEM PROBLEM PROBLEM PROBLEM PROBLEM  ----------------- \n ------------------------------------------------------------------------------------------------------------\n\n\n"+prob+ "\n --------- SOLUTION SOLUTION SOLUTION SOLUTION SOLUTION  -----------------   \n " + sol + '\n------------------------------------------------------------------------------------------------------------\n\n\n'
@@ -324,7 +326,7 @@ class UniquenessChecker:
 
 class AIEvaluator:
   def __init__(self):
-      self.api_key = 'OPEN_AI_APIKEY'
+      self.api_key = openApiKey
       self.client = OpenAI(api_key=self.api_key)
       self.unq = UniquenessChecker('problems_enc.npy','solutions_enc.npy','problems_enc_sparse.json','solutions_enc_sparse.json')
 
