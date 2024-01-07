@@ -6,10 +6,10 @@
    - Set `SOLUTION_ID_IN_CSV` as Your Solution ID in the existing data. If it doesn't exist, input `-1`.
 
 2. **Problem Statement**:
-   - Set the string variable `Prob` with the problem statement.
+   - Set the string variable `prob` with the problem statement.
 
 3. **Your Solution**:
-   - Set the string variable `Sol` with your solution.
+   - Set the string variable `sol` with your solution.
 
 #### Instructions Details
 
