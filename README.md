@@ -1,4 +1,4 @@
-
+Set 'OPENAI_API_KEY'
 
 ### Updating Data Instructions
 
